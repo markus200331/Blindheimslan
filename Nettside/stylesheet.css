@@ -1,0 +1,87 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+html {    
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hallen.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-nav   {
+    position: relative;
+}
+
+.main-nav   {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li    {
+    display: inline-block
+}
+
+.main-nav li a  {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-family: "Source Sans Pro Black", sans-serif, serif;
+    font-size: 15px;
+    border: 1px solid transparent
+}
+.hover :hover  {
+    color: lightgrey;
+}
+.logo img   {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+body    {
+    font-family: monospace;
+}
+
+.row {
+    margin-right: 30px;
+    margin-top: 5px;
+    float: right;
+}
+
+.active {
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 0px;
+    height: 20px;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    padding: 200px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.kontakt1 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 200px;
+}
+
+.kontakt2 {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
